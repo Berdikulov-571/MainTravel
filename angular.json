@@ -35,9 +35,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/line-icons.css",
+              "src/assets/css/plugin.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/custom-nav.js",
+              "src/assets/js/custom-swiper.js",
+              "src/assets/js/jquery-3.5.1.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/particlerun.js",
+              "src/assets/js/particles.js",
+              "src/assets/js/plugin.js",
+              "node_modules/chart.js/dist/chart.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -106,5 +122,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b1c1a99b-4b7b-4460-85b5-bf1ce7c1915f"
   }
 }

@@ -27,6 +27,8 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CaruselComponent } from './components/carusel/carusel.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { CaruselComponent } from './components/carusel/carusel.component';
     BookingComponent,
     NotFoundComponent,
     ContactUsComponent,
-    CaruselComponent
+    CaruselComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

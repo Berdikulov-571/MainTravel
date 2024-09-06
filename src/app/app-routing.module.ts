@@ -13,7 +13,8 @@ const routes: Routes = [
   { path: 'destination', component: DestinationComponent },
   { path: 'booking', component: BookingComponent },
   { path: 'contact', component: ContactUsComponent },
-  { path: 'tours', component: ToursComponent }
+  { path: 'tours', component: ToursComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
